@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media.tenor.com/hjjKhyYtImsAAAAC/anime-pink-anime.gif");
+    background-size: cover;
+    background-position: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 1px 5px 5px pink;
+    font-size: 20px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+span{
+    text-shadow: 2px 6px 5px rgb(2, 0, 0);
+    width: 100px;
+    height: 80px;
+    background: rgb(255, 164, 180);
+    opacity: .8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+     
+}
+
+.clock .text{
+    height: 30px;
+    font-size:12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(236, 236, 236);
+    color: rgb(255, 164, 180);
+    opacity: 0.8;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: rgb(255, 164, 180);
+    
+}
+
